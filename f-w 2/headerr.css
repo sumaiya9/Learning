@@ -1,0 +1,51 @@
+* {
+    background-color: rgb(31, 104, 62);
+}
+
+header h1 {
+    text-align: center;
+    color: lightgreen;
+    font-size: 50px;
+}
+header h1 a {
+    text-decoration: none;
+    color:lightgreen
+}
+header h1 a span {
+    font-family: serif;
+    font-size: 26px;
+    color: rgb(140, 194, 166);
+}
+header div ul {
+       list-style: none;
+       text-align: center;
+ }
+
+ header div ul li  {
+
+    display: inline;
+ }
+       
+header div ul li a {
+    text-decoration: none;
+    color: lightseagreen;
+   font-family: serif;
+   font-size: 30px;
+   padding: 10px;
+}
+ /* div ul li a{
+     display: none;
+ } */
+ul li:hover .submenu-1 {
+    display:block;
+    position: absolute;
+}
+.main{
+    text-align: center;
+    background: white;
+}
+.main div #tagline{
+    float: none;
+    margin: 20px auto 0;
+    width: 90%;
+}
