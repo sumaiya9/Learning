@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    border: 0;
+}
+.section .header button{
+    float: right;
+    
+}
+body{
+    background: url(/sunset.jpg);
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    background-position-x: 170px;
+    color: rgb(255, 255, 255);
+    margin-left: 230px;
+    margin-top: 150px;
+    font-size:  20px;
+    background-color:rgb(150, 120, 120);
+    background-blend-mode: darken;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+div a{
+    box-sizing: border-box;
+  border: rgb(17, 14, 14);
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 550;
+  margin: 4px 2px;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+.Email {
+    background: brown;
+    border: black;
+}
+.fab{
+    margin-left: 800px;
+    margin-top: -80px;
+    display: flex;
+}
