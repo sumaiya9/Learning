@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(39, 38, 38);
+}
+.section img {
+    height: 90px;
+}
+.section #header button{
+    float: right;
+    margin-top: 40px;
+    margin-right: 40px;
+    padding: 8px 20px;
+    border-radius:8px ;
+    font-size: 18px;
+    font-family:sans-serif ;
+    color: white;
+}
+.section{
+    background: url(/netflix-background-9.jpg);
+    background-color: rgb(59, 56, 56);
+    background-blend-mode:darken;
+    height: 700px;
+}
+
+.section h1{
+    color: white;
+    text-align: center;
+    margin-top: 80px ;
+    margin-bottom: 20px;
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serifs;
+    font-weight: 550;
+}
+.section h3{
+    color: white;
+    text-align: center;
+    margin-top:10px;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serifs;
+}
+.section p{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom:15px ;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serifs;
+}
+.section input{
+    margin-left: 27em;
+    padding: 20px 10em;
+    border-radius: 3px;
+}
+.section button {
+    margin-left: -4px;
+    padding: 20px 5em;
+    border-radius: 3px;
+    background: rgb(218, 30, 30);
+}
+ /* section 2*/
+
+.section2{
+    background:rgb(0, 0, 0) ;
+    height: 450px;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    color: white;
+}
+.section2 .box{
+    margin-left: 50px;
+    margin: 160px 90px;
+}
+.section2 h1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section2 p{
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section2 img{
+    height: 400px;
+    margin-right: 50px;
+}
+
+/* section3 */
+.section3{
+    background:rgb(0, 0, 0) ;
+    height: 450px;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    color: white;
+}
+
+.section3 img{
+    height: 350px;
+    margin-left: 80px;
+}
+.section3 .box2{
+    margin-left: 160px;
+    margin-top: 140px;
+    margin-right: 60px;
+    
+}
+.section3 h1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section3 p{
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* section4 */
+.section4{
+    background:rgb(0, 0, 0) ;
+    height: 500px;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    color: white;
+}
+.section4 .box3{
+    margin-left: 120px;
+    margin-top: 160px;
+    margin-right: 60px;
+}
+.section4 h1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section4 p{
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section4 img{
+    height: 400px;
+    margin-right: 80px;
+    margin-top: 30px;
+}
+
+/* section 5 */
+
+
+.section5{
+    background:rgb(0, 0, 0) ;
+    height: 850px;
+    width: 100%;
+    margin-top: 10px;
+    display: grid;
+    color: white;
+}
+
+.section5 h1{
+    color: white;
+    text-align: center;
+    margin-top: 80px ;
+    margin-bottom: 20px;
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serifs;
+    font-weight: 550;
+}
+
+
+.box4{
+    display:grid;
+    grid-template-columns: 1fr ;
+    grid-row-gap: 10px;   
+    justify-content: space-between;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box4 > div{
+    background-color: rgb(42, 43, 43);
+    padding: 18px 40px;
+    margin: 0px 270px 0px 270px ;
+}
+.fas {
+    float: right;
+}
+
+.section5 h3 {
+    margin-top: 80px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.section5 input{
+    margin-top:auto;
+    margin-left: 27em;
+    padding: 20px 10em;
+    border-radius: 3px;
+}
+.section5 button {
+    margin-bottom: 120px;
+    margin-left: -4px;
+    padding: 20px 5em;
+    border-radius: 3px;
+    background: rgb(218, 30, 30);
+}
+
+/* section6 */
+
+.section6{
+    background:rgb(0, 0, 0) ;
+    height: 350px;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    color: white;
+}
+.footer1{
+    margin-left: 200px;
+    margin-top: 20px;
+    padding-left: 50px;
+    display: grid;
+}
+.footer2{
+    margin-left: 60px;
+    margin-top: 100px;
+    padding-left: 50px;
+}
+.footer3{
+    margin-left: 60px;
+    margin-top: 100px;
+    padding-left: 50px;
+}
+.footer4{
+    margin-left: 60px;
+    margin-top:100px ;
+    padding-left: 50px;
+}
+
+.section6 a{
+    text-decoration: none;
+    color: rgb(104, 107, 110);
+    font-family: Arial, Helvetica, sans-serifs;
+    font-size: 13px;
+    font-weight: 500;
+}
+.section6 li{
+    list-style: none;
+    padding: 8px 0px 8px 0px;
+}
+.foothead a{
+    margin-top: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    
+}
