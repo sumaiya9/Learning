@@ -19,7 +19,7 @@ body{
     color: white;
 }
 .section{
-    background: url(/netflix-background-9.jpg);
+    background:url(./netflix-background-9.jpg);
     background-color: rgb(59, 56, 56);
     background-blend-mode:darken;
     height: 700px;
